@@ -13,7 +13,7 @@ spec:
   source:
     path: kubernetes
     repoURL: https://github.com/iamahgoub/blue-manifests.git
-    targetRevision: v1-prod
+    targetRevision: v3.0.9
   syncPolicy:
     automated:
       prune: true
