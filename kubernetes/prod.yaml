@@ -11,7 +11,7 @@ spec:
     server: https://9BC86C1E733C83724D79372436713BC7.yl4.us-east-2.eks.amazonaws.com
   project: default
   source:
-    path: kubernetes
+    path: kubernetes/overlays/prod
     repoURL: https://github.com/iamahgoub/blue-manifests.git
     targetRevision: v3.0.10
   syncPolicy:
