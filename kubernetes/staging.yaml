@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: blue-v1
+  name: blue-staging
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io

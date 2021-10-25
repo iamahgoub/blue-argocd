@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: blue-v1-prod
+  name: blue-prod
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
