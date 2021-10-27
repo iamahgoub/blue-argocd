@@ -13,7 +13,7 @@ spec:
   source:
     path: kubernetes/overlays/prod
     repoURL: https://github.com/iamahgoub/blue-manifests.git
-    targetRevision: v3.0.16
+    targetRevision: v3.0.17
   syncPolicy:
     automated:
       prune: true
